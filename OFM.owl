@@ -1,0 +1,1274 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.ontologies.com/Ontology3197.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.ontologies.com/Ontology3197.owl"/>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Tool">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Simple_Path">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Single_Path"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Temperature_Sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Response">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Element_with_Position">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Area_Restricted_Serial_Transporter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Discrete_Transporter"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Order_sequence">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Discrete_Subsystem">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Subsystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Discrete_Processor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Processor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Data">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Process_Operator">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Operator"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Combined_Path">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Path"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Subsystem">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Pressure_Sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Condition">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Processor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Fixture">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Non_Lifting_Guided_Path_Discrete_Transporter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Guided_Pat_Vehicle"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Orchestration_Process_Template">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Visualization_Parameter">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Bulk_Loading">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Decision_Point">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Controller">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Order_Row">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Screen">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Element"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Barcode_Scanner">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Discrete_Transporter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Transporter"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Parameter_Models">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Lifting_Free_Path_discrete_Transporter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Product">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Service">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Orchestration_Operation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Body">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Control_Operator">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Operator"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#VIS_Object">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Graphical_Interface"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Vehicle">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Transporter"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Roller_Conveyor">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Bulk_Loading"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Unit_load">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Discrete_Storage">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Message_Element">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Robot">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Single_Depth">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Storage"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#VIS_Shop_Floor_Layout">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Element"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Parameters">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Storage">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Lifting_Guided_Path_Discrete_Transporter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Guided_Pat_Vehicle"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Flow_Meter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Operation_Activity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Guided_Pat_Vehicle">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Vehicle"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Document">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Transporter">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Vehicle"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Configuration">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Position">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Parameter">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Pressure_Flow">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Continuous_Storage">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Location">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Single_Path"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#LIFO_Logics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Multiple_Depth"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#FIFO_Logics">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Multiple_Depth"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Assembly_Operator">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Operator"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Moisture_Sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Machining_Center">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Crane">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Area_Restricted_Serial_Transporter"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Flow_Subsystem">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Subsystem"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Flow_Processor">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Multiple_Depth">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Storage"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Anthropomorphic_Robot">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Manufacture_Operator">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Operator"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Header">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Transporter"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Conductivity_Sensor">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#KPI">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Discrete_Loading">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Datapoint">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Handler">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Area_Restricted_Serial_Transporter"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Symbol_Model">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Non_Lifting_Free_Path_Discrete_Transporter">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Notification">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Element">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Graphical_Interface">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Placeholder">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Datapoint"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Process_Routing">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Department">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Subsystem"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Routing_Operation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Photocell">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Station">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Subsystem"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#VIS_Table">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Request">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Transportation_Operator">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Operator"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Symbol">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Single_Path">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Path"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Parameter_Model">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Graphical_Interface"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Transportation_Routing">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Path">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Rotary_Kiln">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Flow_Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Orchestration_Operation">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Reactor">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Flow_Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Tank_Level_Sensor">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Pump">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Flow_Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Data_source">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Datapoint"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#RTU">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Controller"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Filter">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Flow_Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Assembly_Machine">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Processor"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#VIS_Metadata">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Operator">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Inspection_Device">
+    <rdfs:subClassOf rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Processor"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Datapoint_Vp">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Datapoint"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Visualization_Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Message_Element">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Message_Element"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Body"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#create">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Control_Operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Single_path">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Combined_Path"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Single_Path"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Path">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Path"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Vehicle"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Orchestration_Operation">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Orchestration_Operation"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Orchestration_Process_Template"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#need">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Routing_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Notification">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Notification"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Component">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Subsystem"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_after_component">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_in_Storage">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Body_Not">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Body"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Notification"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Parameter_Model">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameter_Model"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameter_Models"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#can_be_performed_by">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Order_Row">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_Row"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Next_Activity">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Parameters">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameters"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Symbol"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Body_Req">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Body"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Request"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_subsystem">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Subsystem"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Subsystem"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Station">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Station"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Transportation_Routing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Element">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Message_Element"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Body"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Symbol">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Symbol"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#VIS_Object"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Header_Res">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Header"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Response"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_component">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_MetaData">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#VIS_Metadata"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_after_Station">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Station"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Station"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_at_Station">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Station"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Routing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Response">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Response"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_First_Activity">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Routing_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#performs">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Child">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element_with_Position"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Configuration">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Configuration"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Decision_point">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Decision_Point"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Transportation_Routing">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Transportation_Routing"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Parameter_Models">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameter_Models"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Symbol_Model"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Data">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Data"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Data_source"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Header_Not">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Notification"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Header"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Position">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element_with_Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Request">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Request"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Product">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Element">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Graphical_Interface"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Service">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#belongs_to_component">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_before_Station">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Station"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Station"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#Check_Availability">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#VIS_Object"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Symbol_Model"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Product">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Document">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Document"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Activity">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Routing_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Body_Res">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Body"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Response"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Parameter_Element">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Visualization_Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Process_Routing">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Routing"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Parameter">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameters"/>
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_composed_of_Routing_Operation">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Routing_Operation"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Routing"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Header_Req">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Header"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Request"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#has_Condition">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Condition"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#receive">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Process_Operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#is_before_component">
+    <rdfs:range rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_std_Cycle_Time">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#guided_path_discrete_transporter_number_of_vehicles">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Guided_Pat_Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#position_columns">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#bulk_loading_continuous_transporter_linear_weight_capacity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Bulk_Loading"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_sequence_notes">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_row_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_Row"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_warehouse_lenght">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#product_product_code">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#subsystem_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Subsystem"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#product_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#header_value">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Header"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#message_element_JSON_path">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Message_Element"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_product_code">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_length">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#product_blocking_condition">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#sensor_value">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#component_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_outputs">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#orchestration_process_template_has_file">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Orchestration_Process_Template"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#free_path_discrete_transporter_maximum_lift_height">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#discrete_loading_continuou_transporter_number_of_carriers">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Transporter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#processor_production_capacity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Processor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#visualization_parameter_place_holder">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Visualization_Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_row_quantity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_Row"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#data_source_provider">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Data_source"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#discrete_loading_continuous_transporter_weight_capacity_per_carrier">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Transporter"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#parameter_model_has_default">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameter_Model"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_elementary_buffer_module_height">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#component_friendly_name">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#document_pointer">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Document"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#position_row">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#handler_vertical_reach">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#data_source_message_form">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Data_source"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#processor_power">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Processor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#service_type">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_elementary_buffer_module_lenght">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#position_hasX">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#data_source_meaning">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Data_source"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_elementary_buffer_module_width">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#service_HTTP_method">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_real_Cycle_Time">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#container_orchestration">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Unit_load"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_width">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_warehouse_width">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#handler_horizontal_reach">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#vehicle_acceleration">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Vehicle"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_sequence_customer_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#orchestration_operation_place_holder">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Orchestration_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_acceleration">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#symbol_model_vendor">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Symbol_Model"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_vertical_speed">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#component_symbol">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#orchestration_operation_friendly_name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Orchestration_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#product_sequence_number">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#free_path_discrete_transporter_turning_radus">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#parameter_model_has_query">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Parameter_Model"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_minimum_curve_radus">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#handler_arm_up_down_speed">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#path_length">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Path"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_operator_skills">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#condition_query">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Condition"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#sensor_type">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#placeholder_meaning">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Placeholder"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#component_position">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#message_element_meaning">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Message_Element"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#position_position">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_moving_method">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#processor_processor_status">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Processor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#routing_operation_service_friendly">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Routing_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_equipment">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#element_with_position_element_URL">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Element_with_Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#guided_path_discrete_transporter_route">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Guided_Pat_Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#photocell_full_or_empty">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Photocell"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#transporter_type">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#sensor_meaning">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operator_operator_status">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_capacity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#header_name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Header"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_maximum_weight_per_position">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#vehicle_speed">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#notification_HTTP_method">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Notification"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_accumulation">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#free_path_discrete_transporter_required_minimum_aisle_width">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#free_path_discrete_transporter_lifting_weight_capacity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Free_Path_Vehicle"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#handler_arm_in_out_speed">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#service_url">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#header_meaning">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Header"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#product_work_piece_status">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Product"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#position_hasY">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#handler_maximum_angle_of_rotation">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#sensor_unit_measure">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#visualization_parameter_has_name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Visualization_Parameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_warehouse_height">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#handler_arm_rotation_speed">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Handler"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_instructions">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_horizontal_speed">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#message_element_type">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Message_Element"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_sequence_ID">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#discrete_transporter_weight_capacity_per_carrier">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Discrete_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#processor_type">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Processor"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#service_available">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_sequence_due_date">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_sequence"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#routing_operation_has_template">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Routing_Operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_minimum_feed_lag">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#position_column">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Position"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_control_program">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operation_activity_inputs">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operation_Activity"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#storage_full">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Storage"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#operator_role">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#data_value">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Data"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#path_capacity">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Path"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#continuous_transporter_incline">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Continuous_Transporter"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#component_graphical_description">
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Component"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#service_meaning">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Service"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.ontologies.com/Ontology3197.owl#order_row_product_code">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.ontologies.com/Ontology3197.owl#Order_Row"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>
