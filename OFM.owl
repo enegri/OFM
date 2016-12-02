@@ -9,23 +9,13 @@
   <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Tool">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Component"/>
-    </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Simple_Path">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Single_Path"/>
-    </rdfs:subClassOf>
+    ssOf>
   </owl:Class>
   <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Temperature_Sensor">
     <rdfs:subClassOf>
       <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Sensor"/>
     </rdfs:subClassOf>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Response">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  </owl:Class>
-  <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Element_with_Position">
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+ sOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </owl:Class>
   <owl:Class rdf:about="http://www.ontologies.com/Ontology3197.owl#Area_Restricted_Serial_Transporter">
     <rdfs:subClassOf>
